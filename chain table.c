@@ -177,7 +177,7 @@ void release(book* p){
 }
 int main()
 {
-	FILE *f = fopen("booklist.csv","r");
+	FILE *f = fopen("book.csv","r");//读取文本位置
 	book* p = creates(f);
 	int num;//储存选项信息
 	char a[50];//储存编号信息
